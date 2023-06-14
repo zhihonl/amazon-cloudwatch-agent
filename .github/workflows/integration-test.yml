@@ -702,7 +702,6 @@ jobs:
     needs: [MakeMacPkg, GenerateTestMatrix]
     name: 'EC2DarwinIntegrationTest'
     runs-on: ubuntu-latest
-    if: false
     strategy:
       fail-fast: false
       matrix:
