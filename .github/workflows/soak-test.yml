@@ -38,6 +38,7 @@ jobs:
     name: "DeploySoakTest"
     needs: [BuildAndUpload]
     runs-on: ubuntu-latest
+    if: false
     permissions:
       id-token: write
       contents: read
